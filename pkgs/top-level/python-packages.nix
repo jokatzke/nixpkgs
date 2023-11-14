@@ -9768,6 +9768,8 @@ self: super: with self; {
 
   pybase64 = callPackage ../development/python-modules/pybase64 { };
 
+  pybedtools = callPackage ../development/python-modules/pybedtools { };
+
   pybids = callPackage ../development/python-modules/pybids { };
 
   pybigwig = callPackage ../development/python-modules/pybigwig { };
